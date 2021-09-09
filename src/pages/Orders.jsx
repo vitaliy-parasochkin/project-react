@@ -1,6 +1,7 @@
 import axios from "axios";
 import React from "react";
 import Card from "../components/Card";
+import Info from "../components/Info";
 
 function Orders() {
     const [ orders, setOrders] = React.useState([]);
@@ -27,7 +28,8 @@ function Orders() {
                 
             </div>
             
-            <div className='card-wrapper d-flex flex-wrap'>
+            {orders.length > 0 ? 
+                <div className='card-wrapper d-flex flex-wrap'>
                 {(isLoading ? [...Array(12)] : orders).map((obj, index) => (
                     <Card 
                         key={index}
@@ -35,7 +37,10 @@ function Orders() {
                         {...obj}
                     />
                 ))}
-            </div>
+                </div>
+                :
+                <Info image='/img/face-orders.svg' title='У вас нет заказов' description='Оформите хотя бы один заказ'/>}
+            
 
         </div>
     )

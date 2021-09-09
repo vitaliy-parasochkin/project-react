@@ -8,68 +8,6 @@ import Favorites from "./pages/Favorites";
 import AppContext from "./context";
 import Orders from "./pages/Orders";
 
-// const arr = [
-//     {
-//         title: "Мужские Кроссовки Nike Blazer Mid Suede",
-//         price: "12 999",
-//         img: "/img/sneakers/1.jpg",
-//     },
-//     {
-//         title: "Мужские Кроссовки Nike Air Max 270",
-//         price: "12 499",
-//         img: "/img/sneakers/2.jpg",
-//     },
-//     {
-//         title: "Мужские Кроссовки Nike Blazer Mid Suede",
-//         price: "8 499",
-//         img: "/img/sneakers/3.jpg",
-//     },
-//     {
-//         title: "Кроссовки Puma X Aka Boku Future Rider",
-//         price: "8 999",
-//         img: "/img/sneakers/4.jpg",
-//     },
-//     {
-//         title: "Мужские Кроссовки Under Armour Curry 8",
-//         price: "15 299",
-//         img: "/img/sneakers/5.jpg",
-//     },
-//     {
-//         title: "Мужские Кроссовки Nike Kyrie 7",
-//         price: "12 299",
-//         img: "/img/sneakers/6.jpg",
-//     },
-//     {
-//         title: "Мужские Кроссовки Jordan Air Jordan 11",
-//         price: "10 199",
-//         img: "/img/sneakers/7.jpg",
-//     },
-//     {
-//         title: "Мужские Кроссовки Nike LeBron XVIII",
-//         price: "16 499",
-//         img: "/img/sneakers/8.jpg",
-//     },
-//     {
-//         title: "Мужские Кроссовки Nike Lebron XVIII Low",
-//         price: "13 999",
-//         img: "/img/sneakers/9.jpg",
-//     },
-//     {
-//         title: "Мужские Кроссовки Nike Blazer Mid Suede",
-//         price: "8 499",
-//         img: "/img/sneakers/10.jpg",
-//     },
-//     {
-//         title: "Кроссовки Puma X Aka Boku Future Rider",
-//         price: "8 999",
-//         img: "/img/sneakers/11.jpg",
-//     },
-//     {
-//         title: "Мужские Кроссовки Nike Kyrie Flytrap IV",
-//         price: "11 999",
-//         img: "/img/sneakers/12.jpg",
-//     },
-// ];
 
 function App() {
    

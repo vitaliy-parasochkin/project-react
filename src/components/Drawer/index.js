@@ -23,18 +23,6 @@ export default function Drawer({onClose,opened, onRemove, items=[]}) {
         setOrderId(data.id)
         setIsOrderComplete(true)
         setCartItems([]);
-        // for (let index = 1; index < cartItems.length+1; index++) {
-        //     console.log(cartItems[index]);
-
-        //     await axios.delete(`https://611df8af7d273a0017e2f990.mockapi.io/cart/` + index)
-        //     await delay(1000);
-        // }
-        // cartItems.forEach((item) => {
-        //     console.log(item, item.id);
-        //     axios.delete(`https://611df8af7d273a0017e2f990.mockapi.io/cart/` + item.id)
-            
-        //     delay(1000);
-        // });
 
         try {
             for (let i = 0; i < cartItems.length; i++) {
@@ -57,7 +45,7 @@ export default function Drawer({onClose,opened, onRemove, items=[]}) {
                     <img
                         onClick={onClose}
                         className="removeBtn cu-p"
-                        src="/img/btn-remove.svg"
+                        src="img/btn-remove.svg"
                         alt="Remove"
                     />
                 </h2>
@@ -81,7 +69,7 @@ export default function Drawer({onClose,opened, onRemove, items=[]}) {
                                         <img
                                             onClick={() => onRemove(id)}
                                             className="removeBtn"
-                                            src="/img/btn-remove.svg"
+                                            src="img/btn-remove.svg"
                                             alt="Remove"
                                         />
                                     </div>

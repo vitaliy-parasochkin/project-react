@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import AppContext from '../context';
 
 const Info = ({image, title,description}) => {
@@ -16,10 +17,12 @@ const Info = ({image, title,description}) => {
                         <p className="opacity-6">
                             {description}
                         </p>
-                        <button onClick={() => setCartOpened(false)} className="greenButton">
-                            <img src="/img/arrow.svg" alt="Arrow" />
-                            Вернуться назад
-                        </button>
+                        <Link to='/'>
+                            <button onClick={() => setCartOpened(false)} className="greenButton">
+                                <img src="img/arrow.svg" alt="Arrow" />
+                                Вернуться назад
+                            </button>
+                        </Link> 
                     </div>
     )
 }
