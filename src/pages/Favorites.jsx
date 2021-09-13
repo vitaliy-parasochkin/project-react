@@ -29,7 +29,7 @@ function Favorites({items}) {
                         ))}
                     </div>
                     :
-                    <Info image='/img/face-favorites.svg' title='Закладок нет' description='Вы ничего не добавляли в закладки'/>
+                    <Info image='img/face-favorites.svg' title='Закладок нет' description='Вы ничего не добавляли в закладки'/>
             }
 
             

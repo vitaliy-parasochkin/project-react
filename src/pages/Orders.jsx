@@ -39,7 +39,7 @@ function Orders() {
                 ))}
                 </div>
                 :
-                <Info image='/img/face-orders.svg' title='У вас нет заказов' description='Оформите хотя бы один заказ'/>}
+                <Info image='img/face-orders.svg' title='У вас нет заказов' description='Оформите хотя бы один заказ'/>}
             
 
         </div>
